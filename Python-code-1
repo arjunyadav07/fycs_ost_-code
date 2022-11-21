@@ -1,0 +1,17 @@
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+if a>0 :
+	if b>0:
+		print("the value of a and b is positive")
+		t=a
+		a=b
+		b=t
+		print("the value of a and b after exchange",a,b)
+elif 0>a and 0>b :
+	print("the value of a and b is negative")
+	t=a
+	a=b
+	b=t
+	print("the value of a and b after exchange",a,b)
+else:
+	print("the both the value is zero")
