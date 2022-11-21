@@ -1,0 +1,6 @@
+#python-code-2
+#add the numbers
+a=int(input("enter the value of a:"))
+b=int(input("enter the value of b:"))
+c=a+b
+print("the addition of a and b is:",c)
